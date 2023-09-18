@@ -1,10 +1,11 @@
 # MICCAI-2023-Challenges-STS-2D
 Code for [MICCAI 2023 Challenges ：STS-基于2D 全景图像的牙齿分割任务](https://tianchi.aliyun.com/competition/entrance/532086/introduction?spm=a2c22.12281925.0.0.6c757137vqp2w7)
-初赛成绩：0.9541  排名：37/1039
+初赛成绩：0.9541  排名：37/1039      
 复赛成绩：0.9583  排名：13/1039
-代码说明：
+
+代码说明：      
 code/
-1. data.py    dataset以数据预处理
+1. data.py  dataset以数据预处理
 2. data_unzip.py  解压原始数据
 3. train.py  1 fold训练
 4. infer.py  1 fold推理(with tta)
