@@ -4,7 +4,7 @@ Code for [MICCAI 2023 Challenges ：STS-基于2D 全景图像的牙齿分割任�
 复赛成绩：0.9583  排名：13/1039
 代码说明：
 code/
-1. data.py  dataset以数据预处理
+1. data.py    dataset以数据预处理
 2. data_unzip.py  解压原始数据
 3. train.py  1 fold训练
 4. infer.py  1 fold推理(with tta)
