@@ -7,7 +7,8 @@ Code for [MICCAI 2023 Challenges ：STS-基于2D 全景图像的牙齿分割任�
 
 ## 文件说明        
 - code/    
-  - data.py -- dataset以数据预处理      
+  - data.py -- dataset以数据预处理 
+  - data_unzip.py -- 解压原始数据 
   - data_unzip.py -- 解压原始数据    
   - train.py -- 1 fold训练    
   - infer.py -- 1 fold推理(with tta)    
