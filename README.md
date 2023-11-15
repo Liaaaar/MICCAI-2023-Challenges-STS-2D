@@ -24,7 +24,7 @@ Code for [MICCAI 2023 Challenges ：STS-基于2D 全景图像的牙齿分割任�
 - 架构：deeplabv3+, unet++, unet    
 - backbone: resnet50, efficientnet_b5, se_resnext50_32x4d 
 - 最终选用deeplabv3+和resnet50的方案(该方案最佳)
-- tricks: 数据增强，tta(原图，竖直镜像，水平镜像，竖直和水平镜像)，k_fold_train，洪泛化(do not work)，数据后处理
+- tricks: 数据增强，tta(原图，竖直镜像，水平镜像，竖直和水平镜像)，k_fold_train，洪泛化(don't work)，数据后处理
 ### 复赛
 - 训练方式：半监督(self_training)
 - 所有设置与初赛保持一致，以初赛最优的单模型作为初始化，在复赛有标签数据上进行10_fold微调，每折保留最优的三个模型，分数为0.9580，数据后处理后分数为0.9583
